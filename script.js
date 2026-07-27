@@ -1,3 +1,5 @@
+document.documentElement.classList.add("js");
+
 const content = {
   en: {
     pageTitle: "NeoSyrPharm | Pharmaceutical Commercialization in Syria",
@@ -30,33 +32,63 @@ const content = {
     aboutBadge: "Local Expertise • Global Standards",
     aboutValues: ["Local insight", "Scientific credibility", "Disciplined execution", "Long-term responsibility"],
     about: ["WHO WE ARE", "A Syrian market partner built for enduring pharmaceutical growth.", "NeoSyrPharm combines regulatory insight, commercial execution, scientific communication, and nationwide distribution coordination. We give international partners one accountable team across the product lifecycle.", "Local intelligence, disciplined execution, and a long-term view of every brand we represent."],
+    ceo: {
+      eyebrow: "LEADERSHIP MESSAGE",
+      title: "CEO Message",
+      name: "Ph. Anas Kassab",
+      paragraph1: "At NeoSyrPharm, we believe that sustainable success in healthcare is built on trust, long-term vision, and meaningful partnerships.",
+      paragraph2: "Our mission extends far beyond introducing pharmaceutical products into the Syrian market. We work alongside our partners to transform scientific innovation into lasting market success through strategic regulatory expertise, market access, scientific engagement, and commercial excellence.",
+      ambition: "Our ambition is not simply to commercialize innovative medicines, but to establish them as trusted and enduring leaders within their therapeutic fields.",
+      paragraph3: "With decades of accumulated industry experience and a deep understanding of the evolving Syrian healthcare landscape, we are committed to creating value that benefits our partners, healthcare professionals, and ultimately, the patients we serve.",
+      paragraph4: "As Syria enters a new phase of healthcare development, we see a unique opportunity to build enduring strategic partnerships with global pharmaceutical and biotechnology companies seeking sustainable growth and long-term market leadership.",
+      paragraph5: "At NeoSyrPharm, we do not simply launch products—we build brands, establish trust, and create lasting success.",
+      paragraph6: "We look forward to shaping the future of healthcare in Syria together.",
+      imageAlt: "Ph. Anas Kassab, CEO of NeoSyrPharm"
+    },
+    brandPhilosophy: {
+      eyebrow: "OUR BRAND PHILOSOPHY",
+      statement: "Every product has the potential to become a market leader.",
+      support: "Our role is to transform scientific value into physician confidence, market trust, and sustainable commercial success.",
+      closing: "That is how we build brands that endure."
+    },
     capHead: ["WHAT WE DO", "One partner. Every critical step.", "A connected platform designed to reduce complexity and move your portfolio forward."],
     caps: [
       ["01", "Market Entry Strategy", "Opportunity assessment, portfolio prioritization, launch planning, and partner alignment."],
       ["02", "Regulatory Affairs", "Local pathway guidance, registration coordination, and lifecycle maintenance."],
       ["03", "Medical & Scientific Affairs", "Credible scientific exchange, KOL engagement, and education programs."],
-      ["04", "Commercialization", "Brand strategy, field execution, demand generation, and performance management."],
+      ["04", "Commercialization", ""],
       ["05", "Institutional Access", "Tender intelligence, stakeholder mapping, and access coordination."],
       ["06", "Distribution Coordination", "Inventory planning, warehousing oversight, and national coverage."],
       ["07", "Pharmacovigilance Support", "Local safety coordination and disciplined reporting workflows."],
-      ["08", "Business Intelligence", "Market signals, forecast discipline, and actionable reporting."]
+      ["08", "Business Intelligence", ""]
     ],
+    capabilityHighlights: {
+      marketEntry: "Building the foundation for long-term market leadership.",
+      medicalScientific: "Turning scientific evidence into lasting physician confidence.",
+      commercialization: "Transforming products into trusted pharmaceutical brands.",
+      businessIntelligence: "Insights that strengthen sustainable brand growth."
+    },
     market: ["WHY SYRIA • WHY NOW", "A market of renewed need and long-term potential.", "Syria’s healthcare system requires trusted access to high-value therapies, reliable supply, and scientifically led partnerships. NeoSyrPharm helps manufacturers translate that need into a responsible, sustainable market plan.", "Priority sectors"],
     sectors: ["Specialty care", "Oncology", "Endocrinology", "Rare disease", "Vaccines", "Hospital products"],
     advantage: ["WHY NEOSYRPHARM", "THE NEOSYRPHARM ADVANTAGE", "A model built for the realities of the Syrian market."],
-    advantages: [["Local Depth", "Experienced leadership, established relationships, and direct insight into market shifts."], ["Scientific Credibility", "Appropriate communication for complex and specialty products."], ["Nationwide Reach", "Coordination across private, institutional, and hospital channels."], ["Partner Transparency", "Shared governance, reporting, forecasts, and priorities."]],
+    advantages: [["Local Depth", "Experienced leadership, established relationships, and direct insight into market shifts."], ["Scientific Credibility", "Appropriate communication for complex and specialty products."], ["Nationwide Reach", "Coordination across private, institutional, and hospital channels."], ["Partner Transparency", "Shared governance, reporting, forecasts, and priorities."], ["Brand Leadership", "Scientific positioning that builds enduring market leadership."]],
     process: ["HOW WE PARTNER", "PARTNERSHIP METHODOLOGY", "A disciplined path from the first conversation to market leadership."],
-    steps: [["01", "Assessment", "Market, portfolio, and opportunities."], ["02", "Alignment", "Objectives and governance."], ["03", "Preparation", "Regulatory readiness."], ["04", "Launch", "Scientific and commercial execution."], ["05", "Scale", "Nationwide expansion."], ["06", "Sustainability", "Lifecycle growth."]],
-    experience: ["PROVEN EXPERIENCE", "Relationships built through delivery.", "Our team brings more than two decades of pharmaceutical commercialization experience in Syria, supporting international companies while protecting brand value and patient access.", "Representative experience", "LG Life Sciences", "Long-standing commercial experience supporting portfolio development, market access, and brand-building activities in Syria."],
+    steps: [["01", "Assessment", "Market, portfolio, and opportunities."], ["02", "Alignment", "Objectives and governance."], ["03", "Preparation", "Regulatory readiness."], ["04", "Launch", "Scientific and commercial execution."], ["05", "Scale", "Scaling trusted brands through scientific excellence."], ["06", "Sustainability", "Sustaining leadership through continuous scientific engagement."]],
+    processHighlights: {
+      launch: "Establishing scientific credibility from day one."
+    },
+    experience: ["PROVEN EXPERIENCE", "Relationships built through delivery.", "Our team brings more than two decades of pharmaceutical commercialization experience in Syria, supporting international companies while protecting brand value and patient access.", "INTERNATIONAL EXPERIENCE", "Korean & Global Pharmaceutical Companies", "Long-standing experience collaborating with Korean and global pharmaceutical companies across portfolio development, market entry, scientific engagement, commercialization, and pharmaceutical brand building in Syria."],
     experienceEditorial: {
       kicker: "OUR TRACK RECORD",
       title: "PROVEN EXPERIENCE",
       statement: "Relationships built through delivery.",
       description: "Our team brings more than two decades of pharmaceutical commercialization experience in Syria, supporting international companies while protecting brand value and patient access.",
+      highlight: "Building leaders, not just launching products.",
       metricAria: "More than twenty years of experience",
       metricLabel: "Years of experience in the Syrian pharmaceutical market",
-      representative: "Representative experience",
-      lgDescription: "Long-standing commercial experience in portfolio development, market entry, and pharmaceutical brand building in Syria."
+      internationalLabel: "INTERNATIONAL EXPERIENCE",
+      internationalTitle: "Korean & Global Pharmaceutical Companies",
+      internationalDescription: "Long-standing experience collaborating with Korean and global pharmaceutical companies across portfolio development, market entry, scientific engagement, commercialization, and pharmaceutical brand building in Syria."
     },
     infra: ["OPERATIONAL READINESS", "Infrastructure that protects supply and supports scale.", "Our model connects demand planning, qualified warehousing, cold-chain coordination, inventory visibility, and channel execution."],
     infrastructure: [["01", "Qualified warehousing", "Controlled storage and documented inventory management."], ["02", "Cold-chain coordination", "Temperature-sensitive planning with qualified partners."], ["03", "Nationwide coverage", "Coordination across major healthcare markets."], ["04", "Demand visibility", "Forecasting and proactive replenishment planning."]],
@@ -64,9 +96,9 @@ const content = {
     cities: ["Damascus", "Aleppo", "Homs", "Hama", "Latakia", "Tartous", "Other governorates"],
     quality: ["QUALITY & COMPLIANCE", "Responsibility is part of the operating system.", "We build compliance, traceability, documentation, and ethical promotion into partner workflows.", ["Documented processes", "Ethical promotion", "Safety coordination", "Partner reporting"]],
     credentials: ["CORPORATE CREDENTIALS", "Established and licensed in Syria."],
-    creds: [["Ministry of Health", "Pharmaceutical license", "2809"], ["Ministry of Economy", "Commercial registration", "97484"], ["Aleppo Chamber of Commerce", "Membership", "25821"]],
+    creds: [["Ministry of Health", "Pharmaceutical License"], ["Ministry of Economy", "Commercial Registration"], ["Aleppo Chamber of Commerce", "Membership"]],
     cta: ["STRATEGIC PARTNERSHIP", "A STRONGER PATH TO MARKET", "Let’s shape the next chapter of your portfolio in Syria. Start a confidential conversation about market potential, regulatory pathways, or partnership models.", "Let’s Discuss a Partnership"],
-    contact: ["CONTACT US", "Let’s start the conversation.", "Tell us about your company and portfolio. Our business development team will contact you directly.", "Direct Contact", "Business Email", "Phone / WhatsApp", "Available upon request"],
+    contact: ["CONTACT US", "Let’s start the conversation.", "Tell us about your company and portfolio. Our business development team will contact you directly.", "Direct Contact", "Business Email", "Phone / WhatsApp", "+90 537 848 08 94", "Address", "Syria / Aleppo"],
     form: ["Full Name", "Company", "Business Email", "Area of Interest", "How can we help?", "Send Inquiry"],
     formDeliveryNote: "Submitting opens your email application so you can send the inquiry directly.",
     formProcessing: "Opening your email application…",
@@ -98,82 +130,112 @@ const content = {
     skip: "انتقل إلى المحتوى",
     menuOpen: "فتح القائمة",
     menuClose: "إغلاق القائمة",
-    metaDescription: "تساعد NeoSyrPharm شركات الأدوية والتكنولوجيا الحيوية العالمية على دخول السوق السوري وتأسيس أعمالها والنمو فيه.",
+    metaDescription: "تدعم NeoSyrPharm شركات الأدوية والتكنولوجيا الحيوية العالمية في دخول السوق السورية وترسيخ حضورها وتحقيق نمو مستدام فيها.",
     socialTitle: "NeoSyrPharm | تسويق المستحضرات الدوائية في سوريا",
-    socialDescription: "شريك استراتيجي لتسويق المستحضرات الدوائية بصورة مستدامة في السوق السوري.",
+    socialDescription: "شريك استراتيجي للتسويق التجاري المستدام للأدوية في السوق السورية.",
     languageLabel: "اختر اللغة",
     logoHome: "الصفحة الرئيسية لـ NeoSyrPharm",
     logoAlt: "شعار NeoSyrPharm",
     primaryNav: "التنقل الرئيسي",
-    statsLabel: "أبرز معلومات الشركة",
-    heroImageAlt: "حقنة دوائية وعبوات أدوية",
-    aboutImageAlt: "فريق شراكات NeoSyrPharm الدوائية",
+    statsLabel: "أبرز مؤشرات الشركة",
+    heroImageAlt: "حقنة وعبوات دوائية",
+    aboutImageAlt: "فريق الشراكات الدوائية في NeoSyrPharm",
     nav: [["من نحن", "about"], ["قدراتنا", "capabilities"], ["دخول السوق", "market"], ["خبراتنا", "experience"], ["البنية التشغيلية", "infrastructure"], ["تواصل معنا", "contact"]],
     partner: "ابدأ شراكة معنا",
     hero: {
-      eyebrow: "دخول سوق الأدوية • سوريا",
-      title: "شريككم الاستراتيجي لتسويق المستحضرات الدوائية في سوريا",
-      intro: "تساعد NeoSyrPharm شركات الأدوية والتكنولوجيا الحيوية العالمية على دخول السوق السوري وتأسيس أعمالها والنمو فيه.",
+      eyebrow: "الوصول إلى سوق الأدوية • سوريا",
+      title: "شريككم الاستراتيجي للتسويق التجاري للأدوية في سوريا",
+      intro: "تدعم NeoSyrPharm شركات الأدوية والتكنولوجيا الحيوية العالمية في دخول السوق السورية وترسيخ حضورها وتحقيق النمو فيها.",
       explore: "استكشف قدراتنا",
-      discuss: "ناقش فرصة شراكة",
-      promise: "نبني علامات دوائية راسخة لقيادة مستدامة في السوق السوري."
+      discuss: "ناقش فرص الشراكة",
+      promise: "نبني علامات دوائية راسخة تحقق ريادة مستدامة في السوق."
     },
-    labels: [["دخول السوق", "انطلاقة محلية استراتيجية"], ["الجودة", "تنفيذ مسؤول"], ["تغطية وطنية", "وصول منسّق"]],
-    stats: [["+22", "عاماً من الخبرة في السوق"], ["تغطية وطنية", "وصول تجاري واسع"], ["دورة متكاملة", "من الدخول إلى النمو"], ["وصول مؤسسي", "خبرة بالجهات والمناقصات"]],
-    aboutLabel: "حول NEOSYRPHARM",
+    labels: [["الوصول إلى السوق", "دخول محلي مدروس"], ["الجودة", "تنفيذ مسؤول"], ["تغطية وطنية", "وصول منسق"]],
+    stats: [["+22", "عاما من الخبرة في السوق"], ["تغطية وطنية", "انتشار تجاري واسع"], ["دورة حياة متكاملة", "دعم من الدخول حتى النمو"], ["وصول مؤسسي", "خبرة في الجهات والمناقصات"]],
+    aboutLabel: "عن NEOSYRPHARM",
     aboutBadge: "خبرة محلية • معايير عالمية",
-    aboutValues: ["رؤية محلية", "موثوقية علمية", "تنفيذ منضبط", "مسؤولية طويلة الأمد"],
-    about: ["من نحن", "شريك محلي صُمّم لنمو دوائي مستدام.", "تجمع NeoSyrPharm بين المعرفة التنظيمية والتنفيذ التجاري والتواصل العلمي وتنسيق التوزيع على المستوى الوطني. نقدم لشركائنا الدوليين فريقاً واحداً مسؤولاً عبر كامل دورة حياة المنتج.", "فهم محلي، تنفيذ منضبط، ورؤية طويلة الأمد لكل علامة نمثلها."],
-    capHead: ["ماذا نقدم", "شريك واحد لكل خطوة محورية.", "منصة مترابطة تقلل التعقيد وتدفع محفظتكم إلى الأمام."],
+    aboutValues: ["معرفة محلية", "مصداقية علمية", "تنفيذ منضبط", "مسؤولية طويلة الأمد"],
+    about: ["من نحن", "شريك محلي يدعم نموا دوائيا مستداما.", "تجمع NeoSyrPharm بين الخبرة في الشؤون التنظيمية، والتنفيذ التجاري، والتواصل العلمي، وتنسيق التوزيع على مستوى سوريا. ونوفر لشركائنا الدوليين فريقا واحدا مسؤولا عن كامل دورة حياة المنتج.", "معرفة محلية، وتنفيذ منضبط، ورؤية طويلة الأمد لكل علامة دوائية نمثلها."],
+    ceo: {
+      eyebrow: "رسالة القيادة",
+      title: "كلمة الرئيس التنفيذي",
+      name: "الصيدلي أنس قصّاب",
+      paragraph1: "في NeoSyrPharm، نؤمن بأن النجاح المستدام في مجال الرعاية الصحية يُبنى على الثقة، والرؤية طويلة الأمد، والشراكات الهادفة.",
+      paragraph2: "تمتد رسالتنا إلى ما هو أبعد بكثير من مجرد إدخال المنتجات الدوائية إلى السوق السورية. فنحن نعمل جنبًا إلى جنب مع شركائنا لتحويل الابتكار العلمي إلى نجاح مستدام في السوق، من خلال الخبرة الاستراتيجية في الشؤون التنظيمية، والوصول إلى السوق، والتواصل العلمي، والتميّز التجاري.",
+      ambition: "لا يقتصر طموحنا على تسويق الأدوية المبتكرة، بل يمتد إلى ترسيخ مكانتها كعلامات موثوقة ورائدة على المدى الطويل ضمن مجالاتها العلاجية.",
+      paragraph3: "وبفضل عقود من الخبرة المتراكمة في القطاع وفهم عميق للمشهد المتطور للرعاية الصحية في سورية، نلتزم بخلق قيمة تعود بالنفع على شركائنا، ومتخصصي الرعاية الصحية، وفي نهاية المطاف، المرضى الذين نخدمهم.",
+      paragraph4: "ومع دخول سوريا مرحلة جديدة من تطوير الرعاية الصحية، نرى فرصة فريدة لبناء شراكات استراتيجية راسخة مع شركات الأدوية والتكنولوجيا الحيوية العالمية الساعية إلى نمو مستدام وريادة طويلة الأمد في السوق.",
+      paragraph5: "في NeoSyrPharm، لا نكتفي بإطلاق المنتجات—بل نبني علامات تجارية، ونرسخ الثقة، ونصنع نجاحًا دائمًا.",
+      paragraph6: "نتطلع إلى رسم مستقبل الرعاية الصحية في سوريا معًا.",
+      imageAlt: "الصيدلي أنس قصّاب، الرئيس التنفيذي لشركة NeoSyrPharm"
+    },
+    brandPhilosophy: {
+      eyebrow: "فلسفتنا في بناء العلامات الدوائية",
+      statement: "لكل منتج القدرة على أن يصبح علامة رائدة في السوق.",
+      support: "دورنا هو تحويل القيمة العلمية إلى ثقة لدى الأطباء، ومصداقية في السوق، ونجاح تجاري مستدام.",
+      closing: "هكذا نبني علامات دوائية تدوم."
+    },
+    capHead: ["ماذا نقدم", "شريك واحد في كل خطوة محورية.", "منصة مترابطة تحد من التعقيد وتدفع محفظتكم الدوائية إلى الأمام."],
     caps: [
-      ["01", "استراتيجية دخول السوق", "تقييم الفرص وتحديد أولويات المحفظة وتخطيط الإطلاق."],
-      ["02", "الشؤون التنظيمية", "إرشاد لمسارات التسجيل وتنسيق الملفات ودعم دورة الحياة."],
-      ["03", "الشؤون الطبية والعلمية", "تبادل علمي موثوق وتواصل مع قادة الرأي."],
-      ["04", "التسويق التجاري", "استراتيجية العلامة والتنفيذ الميداني وإدارة الأداء."],
-      ["05", "الوصول المؤسسي", "رصد المناقصات ورسم خريطة أصحاب المصلحة."],
-      ["06", "تنسيق التوزيع", "تخطيط المخزون والإشراف على التخزين والتغطية الوطنية."],
-      ["07", "دعم اليقظة الدوائية", "تنسيق السلامة محلياً ومسارات إبلاغ منضبطة."],
-      ["08", "ذكاء الأعمال", "مؤشرات السوق وتوقعات دقيقة وتقارير قابلة للتنفيذ."]
+      ["01", "استراتيجية دخول السوق", "تقييم الفرص، وترتيب أولويات المحفظة الدوائية، وتخطيط الإطلاق، ومواءمة الشراكة."],
+      ["02", "الشؤون التنظيمية", "إرشاد بشأن المسارات المحلية، وتنسيق التسجيل، وإدارة دورة حياة المنتج."],
+      ["03", "الشؤون الطبية والعلمية", "تبادل علمي موثوق، وتواصل مع قادة الرأي، وبرامج تعليمية."],
+      ["04", "التسويق التجاري", ""],
+      ["05", "الوصول المؤسسي", "رصد المناقصات، ورسم خريطة أصحاب المصلحة، وتنسيق الوصول."],
+      ["06", "تنسيق التوزيع", "تخطيط المخزون، والإشراف على التخزين، وتحقيق التغطية الوطنية."],
+      ["07", "دعم اليقظة الدوائية", "تنسيق السلامة محليا، واتباع مسارات منضبطة للإبلاغ."],
+      ["08", "ذكاء الأعمال", ""]
     ],
-    market: ["لماذا سوريا • ولماذا الآن", "سوق باحتياجات متجددة وإمكانات طويلة الأمد.", "يحتاج قطاع الرعاية الصحية في سوريا إلى وصول موثوق للعلاجات وإمداد مستقر وشراكات تقودها المعرفة العلمية. نساعد المصنّعين على تحويل هذه الحاجة إلى خطة سوق مسؤولة ومستدامة.", "القطاعات ذات الأولوية"],
-    sectors: ["الرعاية التخصصية", "الأورام", "الغدد الصماء", "الأمراض النادرة", "اللقاحات", "منتجات المشافي"],
+    capabilityHighlights: {
+      marketEntry: "نضع الأساس لريادة مستدامة في السوق.",
+      medicalScientific: "نحوّل الدليل العلمي إلى ثقة راسخة لدى الأطباء.",
+      commercialization: "نحوّل المنتجات إلى علامات دوائية موثوقة.",
+      businessIntelligence: "رؤى تعزّز النمو المستدام للعلامة الدوائية."
+    },
+    market: ["لماذا سوريا • ولماذا الآن", "سوق تتجدد احتياجاتها وتمتلك إمكانات طويلة الأمد.", "يحتاج قطاع الرعاية الصحية في سوريا إلى وصول موثوق إلى العلاجات عالية القيمة، وإمدادات مستقرة، وشراكات تستند إلى المعرفة العلمية. وتساعد NeoSyrPharm الشركات المصنعة على تحويل هذه الاحتياجات إلى خطة مسؤولة ومستدامة للسوق.", "القطاعات ذات الأولوية"],
+    sectors: ["الرعاية التخصصية", "الأورام", "طب الغدد الصماء", "الأمراض النادرة", "اللقاحات", "منتجات المستشفيات"],
     advantage: ["لماذا NEOSYRPHARM؟", "ميزة NEOSYRPHARM", "نموذج مصمم وفق واقع السوق السوري."],
-    advantages: [["عمق محلي", "قيادة ذات خبرة، وعلاقات راسخة، وفهم مباشر لتحولات السوق."], ["مصداقية علمية", "تواصل مناسب للمنتجات المعقدة والتخصصية."], ["وصول وطني", "تنسيق يغطي القنوات الخاصة والمؤسسية والمشافي."], ["شفافية الشراكة", "حوكمة وتقارير وتوقعات وأولويات مشتركة."]],
-    process: ["كيف نعمل؟", "منهجية الشراكة", "مسار منضبط يبدأ من المحادثة الأولى ويصل إلى قيادة السوق."],
-    steps: [["01", "التقييم", "السوق والمحفظة والفرص."], ["02", "المواءمة", "الأهداف والحوكمة."], ["03", "التحضير", "الجاهزية التنظيمية."], ["04", "الإطلاق", "تنفيذ علمي وتجاري."], ["05", "التوسع", "انتشار على المستوى الوطني."], ["06", "الاستدامة", "نمو دورة حياة المنتج."]],
-    experience: ["خبرة مثبتة", "علاقات تُبنى بالإنجاز.", "يمتلك فريقنا أكثر من عقدين من خبرة تسويق الأدوية في سوريا ودعم الشركات العالمية مع حماية قيمة العلامة ووصول المرضى.", "خبرة تمثيلية", "LG Life Sciences", "خبرة تجارية طويلة في تطوير المحافظ ودخول السوق وبناء العلامات الدوائية في سوريا."],
+    advantages: [["خبرة محلية عميقة", "قيادة خبيرة، وعلاقات راسخة، ومعرفة مباشرة بتحولات السوق."], ["مصداقية علمية", "تواصل علمي مناسب للمنتجات المعقدة والتخصصية."], ["وصول على مستوى سوريا", "تنسيق يشمل القنوات الخاصة والمؤسسية والمستشفيات."], ["شفافية الشراكة", "حوكمة شراكة مشتركة تشمل التقارير والتوقعات والأولويات."], ["ريادة العلامة الدوائية", "تموضع علمي يؤسّس لريادة مستدامة في السوق."]],
+    process: ["كيف نبني الشراكة؟", "منهجية الشراكة", "مسار منضبط يمتد من المحادثة الأولى إلى الريادة في السوق."],
+    steps: [["01", "التقييم", "السوق، والمحفظة الدوائية، والفرص."], ["02", "المواءمة", "الأهداف وحوكمة الشراكة."], ["03", "التحضير", "الجاهزية التنظيمية."], ["04", "الإطلاق", "تنفيذ علمي وتجاري."], ["05", "التوسع", "توسيع حضور العلامات الموثوقة من خلال التميّز العلمي."], ["06", "الاستدامة", "الحفاظ على الريادة من خلال تواصل علمي مستمر."]],
+    processHighlights: {
+      launch: "ترسيخ المصداقية العلمية منذ اليوم الأول."
+    },
+    experience: ["خبرة مثبتة", "علاقات تُبنى بالإنجاز.", "يمتلك فريقنا أكثر من عقدين من خبرة تسويق الأدوية في سوريا، ودعم الشركات العالمية مع حماية قيمة العلامة التجارية وتعزيز وصول المرضى.", "خبرة دولية", "شركات أدوية كورية وعالمية", "خبرة ممتدة في التعاون مع شركات أدوية كورية وعالمية في تطوير المحافظ الدوائية، ودخول السوق، والتواصل العلمي، والتسويق التجاري، وبناء العلامات الدوائية في سوريا."],
     experienceEditorial: {
       kicker: "سجلّنا المهني",
       title: "خبرة مثبتة",
       statement: "علاقات تُبنى بالإنجاز.",
       description: "يمتلك فريقنا أكثر من عقدين من خبرة تسويق الأدوية في سوريا، ودعم الشركات العالمية مع حماية قيمة العلامة التجارية وتعزيز وصول المرضى.",
+      highlight: "نبني علامات رائدة، ولا نكتفي بإطلاق المنتجات.",
       metricAria: "أكثر من عشرين عامًا من الخبرة",
       metricLabel: "عامًا من الخبرة في السوق الدوائي السوري",
-      representative: "خبرة تمثيلية",
-      lgDescription: "خبرة تجارية طويلة في تطوير المحافظ، ودخول السوق، وبناء العلامات الدوائية في سوريا."
+      internationalLabel: "خبرة دولية",
+      internationalTitle: "شركات أدوية كورية وعالمية",
+      internationalDescription: "خبرة ممتدة في التعاون مع شركات أدوية كورية وعالمية في تطوير المحافظ الدوائية، ودخول السوق، والتواصل العلمي، والتسويق التجاري، وبناء العلامات الدوائية في سوريا."
     },
-    infra: ["الجاهزية التشغيلية", "بنية تحمي الإمداد وتدعم التوسع.", "يربط نموذجنا بين تخطيط الطلب والتخزين المؤهل وتنسيق سلسلة التبريد ومتابعة المخزون وتنفيذ القنوات."],
-    infrastructure: [["01", "تخزين مؤهل", "عمليات تخزين منضبطة وإدارة موثقة للمخزون."], ["02", "تنسيق سلسلة التبريد", "تخطيط المنتجات الحساسة للحرارة مع شركاء مؤهلين."], ["03", "تغطية وطنية", "تنسيق عبر أهم أسواق الرعاية الصحية."], ["04", "وضوح الطلب", "توقعات وتخطيط استباقي للتوريد."]],
-    coverage: ["التغطية الوطنية", "تغطية حيث تُقدَّم الرعاية.", "نموذج ميداني وقنوات منسق يدعم المدن الرئيسية والحسابات المؤسسية."],
+    infra: ["الجاهزية التشغيلية", "بنية تحتية تحمي الإمدادات وتدعم التوسع.", "يربط نموذجنا تخطيط الطلب بالتخزين المؤهل، وتنسيق سلسلة التبريد، ووضوح المخزون، وتنفيذ قنوات التوزيع."],
+    infrastructure: [["01", "تخزين مؤهل", "تخزين منضبط وإدارة موثقة للمخزون."], ["02", "تنسيق سلسلة التبريد", "تخطيط للمنتجات الحساسة للحرارة بالتعاون مع شركاء مؤهلين."], ["03", "تغطية وطنية", "تنسيق يشمل أسواق الرعاية الصحية الرئيسية."], ["04", "وضوح الطلب", "توقعات دقيقة وتخطيط استباقي لإعادة التوريد."]],
+    coverage: ["تغطية على مستوى سوريا", "نصل إلى مواقع تقديم الرعاية.", "يدعم نموذجنا المنسق للعمل الميداني وقنوات التوزيع المدن الرئيسية والحسابات المؤسسية."],
     cities: ["دمشق", "حلب", "حمص", "حماة", "اللاذقية", "طرطوس", "محافظات أخرى"],
-    quality: ["الجودة والامتثال", "المسؤولية جزء من نظام عملنا.", "ندمج الامتثال والتتبع والتوثيق والترويج الأخلاقي في سير العمل مع شركائنا.", ["عمليات موثقة", "ترويج أخلاقي", "تنسيق السلامة", "تقارير للشركاء"]],
-    credentials: ["الاعتمادات المؤسسية", "شركة مرخصة وراسخة في سوريا."],
-    creds: [["وزارة الصحة", "الترخيص الصيدلاني", "2809"], ["وزارة الاقتصاد", "السجل التجاري", "97484"], ["غرفة تجارة حلب", "رقم العضوية", "25821"]],
-    cta: ["شراكة استراتيجية", "مسار أقوى إلى السوق", "لنصنع معًا المرحلة الجديدة لمحفظتكم في سوريا. ابدأوا حوارًا سريًا حول إمكانات السوق أو المسارات التنظيمية أو نماذج الشراكة.", "لنتحدث عن الشراكة"],
-    contact: ["تواصل معنا", "لنبدأ الحديث.", "عرّفونا بشركتكم ومحفظتكم، وسيتواصل معكم فريق تطوير الأعمال مباشرة.", "تواصل مباشر", "البريد المهني", "الهاتف / واتساب", "متاح عند الطلب"],
+    quality: ["الجودة والامتثال", "المسؤولية جزء أصيل من منظومة عملنا.", "ندمج الامتثال، والتتبع، والتوثيق، والترويج الأخلاقي في آليات العمل مع شركائنا.", ["عمليات موثقة", "ترويج أخلاقي", "تنسيق السلامة", "تقارير الشركاء"]],
+    credentials: ["الاعتمادات المؤسسية", "شركة مؤسسة ومرخصة في سوريا."],
+    creds: [["وزارة الصحة", "الترخيص الصيدلاني"], ["وزارة الاقتصاد", "السجل التجاري"], ["غرفة تجارة حلب", "العضوية"]],
+    cta: ["شراكة استراتيجية", "مسار أقوى إلى السوق", "لنصوغ معا المرحلة التالية لمحفظتكم الدوائية في سوريا. ابدأوا حوارا سريا حول إمكانات السوق، أو المسارات التنظيمية، أو نماذج الشراكة.", "ناقش فرص الشراكة"],
+    contact: ["تواصل معنا", "لنبدأ الحوار.", "عرّفونا بشركتكم ومحفظتكم الدوائية، وسيتواصل معكم فريق تطوير الأعمال مباشرة.", "التواصل المباشر", "البريد الإلكتروني المهني", "الهاتف / واتساب", "+90 537 848 08 94", "العنوان", "سوريا / حلب"],
     form: ["الاسم الكامل", "الشركة", "البريد المهني", "مجال الاهتمام", "كيف يمكننا مساعدتكم؟", "إرسال الاستفسار"],
-    formDeliveryNote: "سيؤدي الإرسال إلى فتح تطبيق البريد لإرسال الاستفسار مباشرة.",
-    formProcessing: "جارٍ فتح تطبيق البريد…",
-    interests: ["دخول السوق", "شراكة تجارية", "دعم تنظيمي", "التوزيع", "أخرى"],
-    footer: "شريك استراتيجي لتسويق المستحضرات الدوائية في سوريا.",
+    formDeliveryNote: "عند الإرسال، سيفتح تطبيق البريد الإلكتروني لإرسال الاستفسار مباشرة.",
+    formProcessing: "جار فتح تطبيق البريد الإلكتروني…",
+    interests: ["دخول السوق", "شراكة تجارية", "دعم الشؤون التنظيمية", "التوزيع", "أخرى"],
+    footer: "شريك استراتيجي للتسويق التجاري للأدوية في سوريا.",
     legal: "المعلومات الواردة في هذا الموقع مخصصة للتواصل بين الشركات ولا تشكل نصيحة طبية.",
     rights: "جميع الحقوق محفوظة.",
     footerContent: {
-      description: "شريك استراتيجي لتسويق المستحضرات الدوائية في سوريا.",
+      description: "شريك استراتيجي للتسويق التجاري للأدوية في سوريا.",
       linksTitle: "روابط الموقع",
       links: ["من نحن", "قدراتنا", "دخول السوق", "خبراتنا", "البنية التشغيلية", "تواصل معنا"],
       partnershipTitle: "ابدأ شراكة معنا",
-      partnershipText: "لنبنِ حضورًا دوائيًا مستدامًا في السوق السوري.",
+      partnershipText: "لنبن حضورا دوائيا مستداما في السوق السورية.",
       contactButton: "تواصل معنا",
       noticeLabel: "تنبيه طبي",
       backToTop: "العودة إلى أعلى الصفحة"
@@ -218,33 +280,63 @@ const content = {
     aboutBadge: "Yerel Uzmanlık • Küresel Standartlar",
     aboutValues: ["Yerel içgörü", "Bilimsel güvenilirlik", "Disiplinli uygulama", "Uzun vadeli sorumluluk"],
     about: ["BİZ KİMİZ", "Kalıcı ilaç büyümesi için kurulmuş yerel pazar ortağı.", "NeoSyrPharm, uluslararası ilaç ve biyoteknoloji şirketlerinin Suriye pazarındaki tüm yolculuğunu tek çatı altında yönetir. Pazar değerlendirmesi ve mevzuat koordinasyonundan bilimsel iletişim, lansman hazırlığı, ticari uygulama ve ülke çapındaki dağıtım koordinasyonuna kadar her aşamada yerel uzmanlık sunarız. İş ortaklarımızla şeffaf yönetişim, düzenli raporlama, etik tanıtım ve sürdürülebilir tedarik ilkeleriyle çalışır; hasta erişimini desteklerken marka değerini uzun vadede korumayı hedefleriz.", "Yerel içgörü. Bilimsel güvenilirlik. Disiplinli uygulama. Temsil ettiğimiz her marka için uzun vadeli sorumluluk."],
+    ceo: {
+      eyebrow: "LİDERLİK MESAJI",
+      title: "CEO’nun Mesajı",
+      name: "Ecz. Anas Kassab",
+      paragraph1: "NeoSyrPharm olarak sağlık sektöründe sürdürülebilir başarının güven, uzun vadeli vizyon ve anlamlı iş ortaklıkları üzerine inşa edildiğine inanıyoruz.",
+      paragraph2: "Misyonumuz, ilaç ürünlerini Suriye pazarına sunmanın çok ötesine uzanıyor. Stratejik ruhsatlandırma uzmanlığı, pazara erişim, bilimsel etkileşim ve ticari mükemmeliyet yoluyla bilimsel yenilikleri kalıcı pazar başarısına dönüştürmek için iş ortaklarımızla birlikte çalışıyoruz.",
+      ambition: "Hedefimiz yalnızca yenilikçi ilaçları ticarileştirmek değil, aynı zamanda onları kendi tedavi alanlarında güvenilen ve kalıcı liderler hâline getirmektir.",
+      paragraph3: "On yıllara dayanan sektör deneyimimiz ve gelişen Suriye sağlık sistemine ilişkin derin anlayışımızla; iş ortaklarımıza, sağlık profesyonellerine ve nihayetinde hizmet ettiğimiz hastalara değer sağlamaya kararlıyız.",
+      paragraph4: "Suriye sağlık sektöründe yeni bir gelişim dönemine girerken, sürdürülebilir büyüme ve uzun vadeli pazar liderliği hedefleyen küresel ilaç ve biyoteknoloji şirketleriyle kalıcı stratejik ortaklıklar kurmak için benzersiz bir fırsat görüyoruz.",
+      paragraph5: "NeoSyrPharm’da yalnızca ürün lansmanı yapmıyoruz—markalar oluşturuyor, güven inşa ediyor ve kalıcı başarı yaratıyoruz.",
+      paragraph6: "Suriye’de sağlık hizmetlerinin geleceğini birlikte şekillendirmeyi sabırsızlıkla bekliyoruz.",
+      imageAlt: "NeoSyrPharm CEO’su Ecz. Anas Kassab"
+    },
+    brandPhilosophy: {
+      eyebrow: "MARKA FELSEFEMİZ",
+      statement: "Her ürün, pazar lideri olma potansiyeline sahiptir.",
+      support: "Bizim rolümüz, bilimsel değeri hekim güvenine, pazar itibarına ve sürdürülebilir ticari başarıya dönüştürmektir.",
+      closing: "Kalıcı markaları böyle inşa ediyoruz."
+    },
     capHead: ["NE YAPIYORUZ", "Tek ortak. Her kritik adım.", "Karmaşıklığı azaltmak ve portföyünüzü ileri taşımak için tasarlanmış entegre bir platform."],
     caps: [
       ["01", "Pazara Giriş Stratejisi", "Fırsat analizi, portföy önceliklendirme, lansman planlama ve ortak uyumu."],
       ["02", "Ruhsatlandırma İşleri", "Yerel süreç rehberliği, kayıt koordinasyonu ve yaşam döngüsü yönetimi."],
       ["03", "Medikal ve Bilimsel İşler", "Güvenilir bilimsel iletişim, kanaat önderi etkileşimi ve eğitim programları."],
-      ["04", "Ticarileştirme", "Marka stratejisi, saha uygulaması, talep oluşturma ve performans yönetimi."],
+      ["04", "Ticarileştirme", ""],
       ["05", "Kurumsal Erişim", "İhale takibi, paydaş haritalama ve erişim koordinasyonu."],
       ["06", "Dağıtım Koordinasyonu", "Stok planlama, depo gözetimi ve ülke çapında kapsama."],
       ["07", "Farmakovijilans Desteği", "Yerel güvenlik koordinasyonu ve düzenli raporlama süreçleri."],
-      ["08", "İş Zekâsı", "Pazar sinyalleri, tahmin disiplini ve uygulanabilir raporlama."]
+      ["08", "İş Zekâsı", ""]
     ],
+    capabilityHighlights: {
+      marketEntry: "Uzun vadeli pazar liderliğinin temelini oluşturuyoruz.",
+      medicalScientific: "Bilimsel kanıtları kalıcı hekim güvenine dönüştürüyoruz.",
+      commercialization: "Ürünleri güvenilir ilaç markalarına dönüştürüyoruz.",
+      businessIntelligence: "Sürdürülebilir marka büyümesini güçlendiren içgörüler."
+    },
     market: ["NEDEN SURİYE • NEDEN ŞİMDİ", "Yenilenen ihtiyaçlara ve uzun vadeli potansiyele sahip bir pazar.", "Suriye sağlık sistemi; yüksek değerli tedavilere güvenilir erişime, sürdürülebilir tedarike ve bilimsel temelli ortaklıklara ihtiyaç duyuyor. NeoSyrPharm, üreticilerin bu ihtiyacı sorumlu ve sürdürülebilir bir pazar planına dönüştürmesine yardımcı olur.", "Öncelikli alanlar"],
     sectors: ["Uzmanlık tedavileri", "Onkoloji", "Endokrinoloji", "Nadir hastalıklar", "Aşılar", "Hastane ürünleri"],
     advantage: ["NEDEN NEOSYRPHARM", "NEOSYRPHARM AVANTAJI", "Suriye pazarının gerçeklerine göre oluşturulmuş bir model."],
-    advantages: [["Yerel Derinlik", "Deneyimli liderlik, güçlü ilişkiler ve pazar değişimlerine doğrudan hâkimiyet."], ["Bilimsel Güvenilirlik", "Karmaşık ve uzmanlık gerektiren ürünler için uygun iletişim."], ["Ulusal Erişim", "Özel, kurumsal ve hastane kanallarını kapsayan koordinasyon."], ["İş Ortağına Şeffaflık", "Ortak yönetişim, raporlama, öngörüler ve öncelikler."]],
+    advantages: [["Yerel Derinlik", "Deneyimli liderlik, güçlü ilişkiler ve pazar değişimlerine doğrudan hâkimiyet."], ["Bilimsel Güvenilirlik", "Karmaşık ve uzmanlık gerektiren ürünler için uygun iletişim."], ["Ulusal Erişim", "Özel, kurumsal ve hastane kanallarını kapsayan koordinasyon."], ["İş Ortağına Şeffaflık", "Ortak yönetişim, raporlama, öngörüler ve öncelikler."], ["Marka Liderliği", "Kalıcı pazar liderliği oluşturan bilimsel konumlandırma."]],
     process: ["NASIL ÇALIŞIYORUZ", "ORTAKLIK YAKLAŞIMIMIZ", "İlk görüşmeden pazar liderliğine uzanan disiplinli bir yol."],
-    steps: [["01", "Değerlendirme", "Pazar, portföy ve fırsatlar."], ["02", "Uyum", "Hedefler ve yönetişim."], ["03", "Hazırlık", "Mevzuata hazırlık."], ["04", "Lansman", "Bilimsel ve ticari uygulama."], ["05", "Ölçekleme", "Ülke çapında yayılım."], ["06", "Sürdürülebilirlik", "Yaşam döngüsü büyümesi."]],
-    experience: ["KANITLANMIŞ DENEYİM", "Sonuçlarla güçlenen ilişkiler.", "Ekibimiz, marka değerini ve hasta erişimini koruyarak uluslararası şirketleri destekleyen, Suriye’de yirmi yılı aşkın ilaç ticarileştirme deneyimine sahiptir.", "Örnek deneyim", "LG Life Sciences", "Suriye’de portföy geliştirme, pazara erişim ve marka oluşturma faaliyetlerini destekleyen uzun soluklu ticari deneyim."],
+    steps: [["01", "Değerlendirme", "Pazar, portföy ve fırsatlar."], ["02", "Uyum", "Hedefler ve yönetişim."], ["03", "Hazırlık", "Mevzuata hazırlık."], ["04", "Lansman", "Bilimsel ve ticari uygulama."], ["05", "Ölçekleme", "Güvenilir markaları bilimsel mükemmeliyetle büyütmek."], ["06", "Sürdürülebilirlik", "Sürekli bilimsel etkileşimle liderliği sürdürmek."]],
+    processHighlights: {
+      launch: "İlk günden itibaren bilimsel güvenilirlik oluşturmak."
+    },
+    experience: ["KANITLANMIŞ DENEYİM", "Sonuçlarla güçlenen ilişkiler.", "Ekibimiz, marka değerini ve hasta erişimini koruyarak uluslararası şirketleri destekleyen, Suriye’de yirmi yılı aşkın ilaç ticarileştirme deneyimine sahiptir.", "ULUSLARARASI DENEYİM", "Koreli ve Küresel İlaç Şirketleri", "Suriye’de portföy geliştirme, pazara giriş, bilimsel iletişim, ticarileştirme ve ilaç markası oluşturma alanlarında Koreli ve küresel ilaç şirketleriyle uzun yıllara dayanan iş birliği deneyimi."],
     experienceEditorial: {
       kicker: "PROFESYONEL GEÇMİŞİMİZ",
       title: "KANITLANMIŞ DENEYİM",
       statement: "Sonuçlarla güçlenen ilişkiler.",
       description: "Ekibimiz, marka değerini ve hasta erişimini koruyarak uluslararası şirketleri destekleyen, Suriye’de yirmi yılı aşkın ilaç ticarileştirme deneyimine sahiptir.",
+      highlight: "Yalnızca ürün lansmanı yapmıyor, lider markalar inşa ediyoruz.",
       metricAria: "Yirmi yılı aşkın deneyim",
       metricLabel: "Suriye ilaç pazarında yıllık deneyim",
-      representative: "Temsili deneyim",
-      lgDescription: "Suriye’de portföy geliştirme, pazara giriş ve ilaç markası oluşturma alanlarında uzun süreli ticari deneyim."
+      internationalLabel: "ULUSLARARASI DENEYİM",
+      internationalTitle: "Koreli ve Küresel İlaç Şirketleri",
+      internationalDescription: "Suriye’de portföy geliştirme, pazara giriş, bilimsel iletişim, ticarileştirme ve ilaç markası oluşturma alanlarında Koreli ve küresel ilaç şirketleriyle uzun yıllara dayanan iş birliği deneyimi."
     },
     infra: ["OPERASYONEL HAZIRLIK", "Tedariki koruyan ve ölçeklenmeyi destekleyen altyapı.", "Modelimiz; talep planlama, nitelikli depolama, soğuk zincir koordinasyonu, stok görünürlüğü ve kanal uygulamasını birbirine bağlar."],
     infrastructure: [["01", "Nitelikli depolama", "Kontrollü saklama ve belgeli stok yönetimi."], ["02", "Soğuk zincir koordinasyonu", "Nitelikli ortaklarla sıcaklığa duyarlı ürün planlaması."], ["03", "Ülke çapında kapsama", "Başlıca sağlık pazarlarında koordinasyon."], ["04", "Talep görünürlüğü", "Tahmin ve proaktif ikmal planlaması."]],
@@ -252,9 +344,9 @@ const content = {
     cities: ["Şam", "Halep", "Humus", "Hama", "Lazkiye", "Tartus", "Diğer iller"],
     quality: ["UYUM", "Sorumluluk, çalışma sistemimizin bir parçasıdır.", "Uyum, izlenebilirlik, belgelendirme ve etik tanıtımı ortak çalışma süreçlerine dahil ederiz.", ["Belgeli süreçler", "Etik tanıtım", "Güvenlik koordinasyonu", "Ortak raporlama"]],
     credentials: ["KURUMSAL YETKİNLİKLER", "Suriye’de kurulmuş ve lisanslı."],
-    creds: [["Sağlık Bakanlığı", "İlaç ruhsatı", "2809"], ["Ekonomi Bakanlığı", "Ticaret sicili", "97484"], ["Halep Ticaret Odası", "Üyelik", "25821"]],
+    creds: [["Sağlık Bakanlığı", "İlaç Ruhsatı"], ["Ekonomi Bakanlığı", "Ticaret Sicili"], ["Halep Ticaret Odası", "Üyelik"]],
     cta: ["STRATEJİK İŞ BİRLİĞİ", "PAZARA DAHA GÜÇLÜ BİR YOL", "Portföyünüzün Suriye’deki yeni dönemini birlikte oluşturalım. Pazar potansiyeli, mevzuat yolları veya iş birliği modelleri hakkında gizli bir görüşme başlatın.", "İş Birliğini Görüşelim"],
-    contact: ["İLETİŞİM", "Görüşmeye başlayalım.", "Şirketinizi ve portföyünüzü bize tanıtın. İş geliştirme ekibimiz sizinle doğrudan iletişime geçecektir.", "Doğrudan İletişim", "Kurumsal E-posta", "Telefon / WhatsApp", "Talep üzerine paylaşılır"],
+    contact: ["İLETİŞİM", "Görüşmeye başlayalım.", "Şirketinizi ve portföyünüzü bize tanıtın. İş geliştirme ekibimiz sizinle doğrudan iletişime geçecektir.", "Doğrudan İletişim", "Kurumsal E-posta", "Telefon / WhatsApp", "+90 537 848 08 94", "Adres", "Suriye / Halep"],
     form: ["Ad Soyad", "Şirket", "Kurumsal E-posta", "İlgi Alanı", "Size nasıl yardımcı olabiliriz?", "Talebi Gönder"],
     formDeliveryNote: "Gönderim, talebi doğrudan iletebilmeniz için e-posta uygulamanızı açar.",
     formProcessing: "E-posta uygulamanız açılıyor…",
@@ -328,7 +420,19 @@ const advantageIcons = [
   `<svg viewBox="0 0 24 24"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z"/><path d="M3.6 9h16.8M3.6 15h16.8M12 3c2.2 2.5 3.2 5.5 3.2 9s-1 6.5-3.2 9c-2.2-2.5-3.2-5.5-3.2-9S9.8 5.5 12 3Z"/></svg>`,
   `<svg viewBox="0 0 24 24"><path d="m9 3 6 18M15 3 9 21M7.5 7h9M6.5 12h11M7.5 17h9"/></svg>`,
   `<svg viewBox="0 0 24 24"><path d="M4 17h16M6 17V9h4v8M14 17V5h4v12M4 21h16"/></svg>`,
-  `<svg viewBox="0 0 24 24"><path d="M12 3 4 7v5c0 4.8 3.2 7.8 8 9 4.8-1.2 8-4.2 8-9V7z"/><path d="m8.5 12 2.2 2.2 4.8-5"/></svg>`
+  `<svg viewBox="0 0 24 24"><path d="M12 3 4 7v5c0 4.8 3.2 7.8 8 9 4.8-1.2 8-4.2 8-9V7z"/><path d="m8.5 12 2.2 2.2 4.8-5"/></svg>`,
+  `<svg viewBox="0 0 24 24"><path d="M4 19h16M6 16l4-4 3 2 5-7"/><path d="M14 7h4v4"/></svg>`
+];
+
+const capabilityHighlightKeys = [
+  "marketEntry",
+  null,
+  "medicalScientific",
+  "commercialization",
+  null,
+  null,
+  null,
+  "businessIntelligence"
 ];
 
 function closeMenu() {
@@ -438,30 +542,48 @@ function setLanguage(language) {
       <strong>${value}</strong>
     </article>
   `).join("");
-  document.querySelector("#capability-cards").innerHTML = t.caps.map(([number, title, body], index) => `
-    <article>
-      <span>${number}</span>
-      <span class="capabilityIcon" aria-hidden="true">${capabilityIcons[index]}</span>
-      <h3>${title}</h3>
-      <p>${body}</p>
-    </article>
-  `).join("");
+  document.querySelector("#capability-cards").innerHTML = t.caps.map(([number, title, body], index) => {
+    const highlightKey = capabilityHighlightKeys[index];
+    const highlight = highlightKey ? t.capabilityHighlights[highlightKey] : "";
+    return `
+      <article>
+        <span>${number}</span>
+        <span class="capabilityIcon" aria-hidden="true">${capabilityIcons[index]}</span>
+        <h3>${title}</h3>
+        ${body ? `<p class="capabilityDescription">${body}</p>` : ""}
+        ${highlight ? `<p class="capabilityHighlight">${highlight}</p>` : ""}
+      </article>
+    `;
+  }).join("");
   document.querySelector("#sectors").innerHTML = t.sectors.map(item => `<span>${item}</span>`).join("");
-  document.querySelector("#advantages").innerHTML = t.advantages.map(([title, body], index) => `
-    <article class="advantageItem" role="listitem">
+  const advantageMatrix = document.querySelector("#advantages");
+  advantageMatrix.querySelectorAll(".advantage-card-reveal").forEach(cardItem => {
+    revealObserver?.unobserve(cardItem);
+  });
+  advantageMatrix.innerHTML = t.advantages.map(([title, body], index) => `
+    <article
+      class="advantageItem advantage-card-reveal"
+      role="listitem"
+      style="--card-delay: ${[0, 90, 180, 90, 180][index]}ms; --card-delay-mobile: ${[0, 60, 90, 60, 90][index]}ms"
+    >
       <span class="advantageNumber" aria-hidden="true">0${index + 1}</span>
       <span class="advantageIcon" aria-hidden="true">${advantageIcons[index]}</span>
       <h3>${title}</h3>
       <p>${body}</p>
     </article>
   `).join("");
-  document.querySelector("#process-steps").innerHTML = t.steps.map(([number, title, body]) => `
-    <article class="methodStep" role="listitem">
-      <span>${number}</span>
-      <h3>${title}</h3>
-      <p>${body}</p>
-    </article>
-  `).join("");
+  prepareAdvantageCards();
+  document.querySelector("#process-steps").innerHTML = t.steps.map(([number, title, body]) => {
+    const highlight = number === "04" ? t.processHighlights.launch : "";
+    return `
+      <article class="methodStep" role="listitem">
+        <span>${number}</span>
+        <h3>${title}</h3>
+        <p class="methodDescription">${body}</p>
+        ${highlight ? `<p class="methodHighlight">${highlight}</p>` : ""}
+      </article>
+    `;
+  }).join("");
   document.querySelector("#infrastructure-cards").innerHTML = t.infrastructure.map(([number, title, body]) => `<article><span>${number}</span><div><h3>${title}</h3><p>${body}</p></div></article>`).join("");
   document.querySelector("#cities").innerHTML = t.cities.map(city => `<span>${city}</span>`).join("");
   document.querySelector("#quality-points").innerHTML = t.quality[3].map((point, index) => `
@@ -470,7 +592,7 @@ function setLanguage(language) {
       <strong>${point}</strong>
     </li>
   `).join("");
-  document.querySelector("#credentials-grid").innerHTML = t.creds.map(([authority, label, number]) => `
+  document.querySelector("#credentials-grid").innerHTML = t.creds.map(([authority, label]) => `
     <article>
       <div class="credentialCardTop" aria-hidden="true">
         <span class="credentialIcon">${credentialIcon}</span>
@@ -478,7 +600,6 @@ function setLanguage(language) {
       </div>
       <p>${authority}</p>
       <span>${label}</span>
-      <strong>${number}</strong>
     </article>
   `).join("");
   document.querySelector("#interest-options").innerHTML = t.interests.map(item => `<option>${item}</option>`).join("");
@@ -682,21 +803,74 @@ document.querySelectorAll("#contact-form input, #contact-form textarea").forEach
   field.addEventListener("input", () => clearFieldError(field));
 });
 
+const advantageSection = document.querySelector(".advantageEditorial");
+advantageSection?.classList.add("advantage-reveal");
+
+function prepareAdvantageCards() {
+  const cards = Array.from(document.querySelectorAll(".advantage-card-reveal"));
+  const revealImmediately =
+    !revealObserver || advantageSection?.dataset.advantageAnimated === "true";
+
+  cards.forEach(cardItem => {
+    cardItem.classList.remove("is-entering");
+    if (revealImmediately) {
+      cardItem.classList.add("is-visible");
+      return;
+    }
+    cardItem.classList.remove("is-visible");
+    revealObserver.observe(cardItem);
+  });
+}
+
+function settleReveal(target, delay = 900) {
+  window.setTimeout(() => target.classList.remove("is-entering"), delay);
+}
+
 const revealObserver = "IntersectionObserver" in window
   ? new IntersectionObserver(entries => {
       entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-          revealObserver.unobserve(entry.target);
+        const target = entry.target;
+        const isAdvantageTarget =
+          target.classList.contains("advantage-reveal") ||
+          target.classList.contains("advantage-card-reveal");
+        const requiredRatio = isAdvantageTarget ? 0.15 : 0.08;
+
+        if (!entry.isIntersecting || entry.intersectionRatio < requiredRatio) return;
+
+        if (target.classList.contains("advantage-reveal")) {
+          target.classList.add("visible", "is-visible", "is-entering");
+          target.dataset.advantageAnimated = "true";
+          settleReveal(target, 1100);
+        } else if (target.classList.contains("advantage-card-reveal")) {
+          const activeDelay = Number.parseFloat(
+            getComputedStyle(target).getPropertyValue("--active-card-delay")
+          ) || 0;
+          target.classList.add("is-visible", "is-entering");
+          settleReveal(target, activeDelay + 950);
+        } else {
+          target.classList.add("visible");
         }
+
+        revealObserver.unobserve(target);
       });
-    }, { threshold: 0.08 })
+    }, {
+      threshold: [0.08, 0.15],
+      rootMargin: "0px 0px -8% 0px"
+    })
   : null;
 
 document.querySelectorAll(".reveal").forEach((section, index) => {
-  section.style.transitionDelay = `${Math.min(index * 70, 220)}ms`;
+  if (!section.classList.contains("advantage-reveal")) {
+    section.style.transitionDelay = `${Math.min(index * 70, 220)}ms`;
+  }
   if (revealObserver) revealObserver.observe(section);
-  else section.classList.add("visible");
+  else {
+    section.classList.add("visible");
+    if (section.classList.contains("advantage-reveal")) {
+      section.classList.add("is-visible");
+      section.dataset.advantageAnimated = "true";
+    }
+  }
 });
 
 function updatePageProgress() {

@@ -1,5 +1,9 @@
 document.documentElement.classList.add("js");
 
+const progressiveEnhancementFallback = window.setTimeout(() => {
+  document.documentElement.classList.remove("js");
+}, 3000);
+
 const content = {
   en: {
     pageTitle: "NeoSyrPharm | Pharmaceutical Commercialization in Syria",
@@ -1055,3 +1059,4 @@ try {
 setLanguage(initialLanguage);
 updatePageProgress();
 document.body.classList.add("loaded");
+window.clearTimeout(progressiveEnhancementFallback);

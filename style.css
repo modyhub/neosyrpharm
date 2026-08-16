@@ -1469,11 +1469,11 @@ footer {
   margin: 0;
 }
 
-.heroCopy,
-.heroVisual,
-.heroButtons,
-.promise,
-.imageTag {
+.js .heroCopy,
+.js .heroVisual,
+.js .heroButtons,
+.js .promise,
+.js .imageTag {
   opacity: 0;
   transform: translateY(24px);
 }
@@ -1509,6 +1509,11 @@ body.loaded .imageTag:nth-of-type(3) {
 }
 
 .reveal {
+  opacity: 1;
+  transform: none;
+}
+
+.js .reveal {
   opacity: 0;
   transform: translateY(28px) scale(0.985);
   transition: opacity 700ms cubic-bezier(0.2, 0.8, 0.2, 1), transform 700ms cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -3160,10 +3165,10 @@ body.loaded .imageTag:nth-of-type(3) {
   left: 6%;
 }
 
-.experienceEditorial .editorialCopy,
-.experienceEditorial .editorialMetric,
-.experienceEditorial .editorialCaseStudy,
-.experienceEditorial .editorialDivider {
+.js .experienceEditorial .editorialCopy,
+.js .experienceEditorial .editorialMetric,
+.js .experienceEditorial .editorialCaseStudy,
+.js .experienceEditorial .editorialDivider {
   opacity: 0;
   transform: translateY(20px);
   transition:
@@ -3551,9 +3556,9 @@ body.loaded .imageTag:nth-of-type(3) {
   bottom: 8%;
 }
 
-.aboutHub .aboutContent,
-.aboutHub .aboutMedia,
-.aboutValues article {
+.js .aboutHub .aboutContent,
+.js .aboutHub .aboutMedia,
+.js .aboutValues article {
   opacity: 0;
   transform: translateY(18px);
   transition:
@@ -3914,8 +3919,8 @@ body.loaded .imageTag:nth-of-type(3) {
   left: 14%;
 }
 
-.complianceHub .qualityCards li,
-.complianceHub .credentialGrid article {
+.js .complianceHub .qualityCards li,
+.js .complianceHub .credentialGrid article {
   opacity: 0;
   transform: translateY(16px);
   transition:

@@ -102,7 +102,26 @@ const content = {
     form: ["Full Name", "Company", "Business Email", "Area of Interest", "How can we help?", "Send Inquiry"],
     formDeliveryNote: "Submitting opens your email application so you can send the inquiry directly.",
     formProcessing: "Opening your email application…",
-    interests: ["Market entry", "Commercial partnership", "Regulatory support", "Distribution", "Other"],
+    interests: ["Market entry", "Commercial partnership", "Regulatory support", "Distribution", "Pharmacovigilance (Drug Safety Complaint)", "Medical Information Inquiry", "Other"],
+    pharmacovigilanceLabels: {
+      fullName: "Doctor's or Person's Full Name (three parts)",
+      email: "Email Address",
+      message: "Drug Safety Complaint Details",
+      submit: "Send Complaint"
+    },
+    medicalInformationLabels: {
+      fullName: "Doctor's or Person's Full Name (three parts)",
+      email: "Email Address",
+      message: "Medical Inquiry Details",
+      submit: "Send Medical Inquiry"
+    },
+    validation: {
+      required: "Please complete this field.",
+      name: "Please enter your full name.",
+      nameParts: "Please enter at least three words (first, middle, and last name).",
+      email: "Please enter a valid business email address.",
+      message: "Please tell us how we can help."
+    },
     footer: "Strategic pharmaceutical commercialization in Syria.",
     legal: "Information on this website is intended for business-to-business communication and does not constitute medical advice.",
     rights: "All rights reserved.",
@@ -115,12 +134,6 @@ const content = {
       contactButton: "Contact Us",
       noticeLabel: "Medical notice",
       backToTop: "Back to top"
-    },
-    validation: {
-      required: "Please complete this field.",
-      name: "Please enter your full name.",
-      email: "Please enter a valid business email address.",
-      message: "Please tell us how we can help."
     },
     inquirySubject: "NeoSyrPharm inquiry",
     newPartner: "New partner"
@@ -226,7 +239,19 @@ const content = {
     form: ["الاسم الكامل", "الشركة", "البريد المهني", "مجال الاهتمام", "كيف يمكننا مساعدتكم؟", "إرسال الاستفسار"],
     formDeliveryNote: "عند الإرسال، سيفتح تطبيق البريد الإلكتروني لإرسال الاستفسار مباشرة.",
     formProcessing: "جار فتح تطبيق البريد الإلكتروني…",
-    interests: ["دخول السوق", "شراكة تجارية", "دعم الشؤون التنظيمية", "التوزيع", "أخرى"],
+    interests: ["دخول السوق", "شراكة تجارية", "دعم الشؤون التنظيمية", "التوزيع", "شكاوى اليقظة الدوائية", "الاستفسارات الطبية", "أخرى"],
+    pharmacovigilanceLabels: {
+      fullName: "الاسم الثلاثي للطبيب أو الشخص",
+      email: "البريد الإلكتروني",
+      message: "محتوى الشكوى الدوائية",
+      submit: "إرسال الشكوى"
+    },
+    medicalInformationLabels: {
+      fullName: "الاسم الثلاثي للطبيب أو الشخص",
+      email: "البريد الإلكتروني",
+      message: "محتوى الاستفسار الطبي",
+      submit: "إرسال الاستفسار الطبي"
+    },
     footer: "شريك استراتيجي للتسويق التجاري للأدوية في سوريا.",
     legal: "المعلومات الواردة في هذا الموقع مخصصة للتواصل بين الشركات ولا تشكل نصيحة طبية.",
     rights: "جميع الحقوق محفوظة.",
@@ -243,7 +268,8 @@ const content = {
     validation: {
       required: "يرجى إكمال هذا الحقل.",
       name: "يرجى إدخال الاسم الكامل.",
-      email: "يرجى إدخال بريد إلكتروني مهني صالح.",
+      nameParts: "يرجى إدخال ثلاث كلمات على الأقل (الاسم الأول والاسم الأوسط واسم العائلة).",
+      email: "يرجى إدخال بريد إلكتروني صالح.",
       message: "يرجى توضيح كيف يمكننا مساعدتكم."
     },
     inquirySubject: "استفسار NeoSyrPharm",
@@ -350,7 +376,19 @@ const content = {
     form: ["Ad Soyad", "Şirket", "Kurumsal E-posta", "İlgi Alanı", "Size nasıl yardımcı olabiliriz?", "Talebi Gönder"],
     formDeliveryNote: "Gönderim, talebi doğrudan iletebilmeniz için e-posta uygulamanızı açar.",
     formProcessing: "E-posta uygulamanız açılıyor…",
-    interests: ["Pazara giriş", "Ticari ortaklık", "Ruhsatlandırma desteği", "Dağıtım", "Diğer"],
+    interests: ["Pazara giriş", "Ticari ortaklık", "Ruhsatlandırma desteği", "Dağıtım", "Farmakovijilans (İlaç Güvenliliği Şikâyeti)", "Tıbbi Bilgi Talebi", "Diğer"],
+    pharmacovigilanceLabels: {
+      fullName: "Doktorun veya Kişinin Üçlü Tam Adı",
+      email: "E-posta Adresi",
+      message: "İlaç Güvenliliği Şikâyetinin İçeriği",
+      submit: "Şikâyeti Gönder"
+    },
+    medicalInformationLabels: {
+      fullName: "Doktorun veya Kişinin Üçlü Tam Adı",
+      email: "E-posta Adresi",
+      message: "Tıbbi Bilgi Talebinin İçeriği",
+      submit: "Tıbbi Bilgi Talebini Gönder"
+    },
     footer: "Suriye’de stratejik ilaç ticarileştirme.",
     legal: "Bu internet sitesindeki bilgiler işletmeler arası iletişim amacıyla sunulmaktadır ve tıbbi tavsiye niteliği taşımaz.",
     rights: "Tüm hakları saklıdır.",
@@ -367,7 +405,8 @@ const content = {
     validation: {
       required: "Lütfen bu alanı doldurun.",
       name: "Lütfen adınızı ve soyadınızı girin.",
-      email: "Lütfen geçerli bir kurumsal e-posta adresi girin.",
+      nameParts: "Lütfen en az üç kelime girin (ad, ikinci ad ve soyad).",
+      email: "Lütfen geçerli bir e-posta adresi girin.",
       message: "Lütfen size nasıl yardımcı olabileceğimizi belirtin."
     },
     inquirySubject: "NeoSyrPharm talebi",
@@ -602,11 +641,14 @@ function setLanguage(language) {
       <span>${label}</span>
     </article>
   `).join("");
-  document.querySelector("#interest-options").innerHTML = t.interests.map(item => `<option>${item}</option>`).join("");
+  
+  const interestValues = ["market-entry", "commercial-partnership", "regulatory-support", "distribution", "pharmacovigilance", "medical-information", "other"];
+  document.querySelector("#interest-options").innerHTML = t.interests.map((item, index) => `<option value="${interestValues[index]}">${item}</option>`).join("");
 
   document.querySelector(".menu").setAttribute("aria-label", t.menuOpen);
   document.querySelectorAll("#main-nav a").forEach(link => link.addEventListener("click", closeMenu));
   clearContactErrors();
+  updateFormDisplay();
   const activeSubmitButton = document.querySelector(".contactSubmit");
   if (activeSubmitButton.disabled) {
     activeSubmitButton.querySelector("span:first-child").textContent = t.formProcessing;
@@ -735,13 +777,24 @@ function validateContactForm(form) {
   const name = form.elements.name;
   const email = form.elements.email;
   const message = form.elements.message;
+  const interest = form.elements.interest;
   const invalidFields = [];
 
   clearContactErrors();
 
+  const selectedValue = interest?.value;
+  const isSpecialForm = selectedValue === "pharmacovigilance" || selectedValue === "medical-information";
+
   if (!name.value.trim()) {
     showFieldError(name, validation.name);
     invalidFields.push(name);
+  } else if (isSpecialForm) {
+    // Validate three-part name for pharmacovigilance and medical information
+    const nameParts = name.value.trim().split(/\s+/).filter(part => part.length > 0);
+    if (nameParts.length < 3) {
+      showFieldError(name, validation.nameParts);
+      invalidFields.push(name);
+    }
   }
   if (!email.value.trim() || email.validity.typeMismatch) {
     showFieldError(email, validation.email);
@@ -755,6 +808,47 @@ function validateContactForm(form) {
   return invalidFields;
 }
 
+function updateFormDisplay() {
+  const interestSelect = document.querySelector("#interest-options");
+  const selectedValue = interestSelect?.value;
+  const isPharmacovigil = selectedValue === "pharmacovigilance";
+  const isMedicalInfo = selectedValue === "medical-information";
+  const isSpecialForm = isPharmacovigil || isMedicalInfo;
+  
+  const t = content[currentLanguage];
+  const companyField = document.querySelector("#contact-company")?.closest(".formField");
+  const nameLabel = document.querySelector('[for="contact-name"] span');
+  const emailLabel = document.querySelector('[for="contact-email"] span');
+  const messageLabel = document.querySelector('[for="contact-message"] span');
+  const submitButton = document.querySelector(".contactSubmit span:first-child");
+  
+  // Show/hide company field
+  if (companyField) {
+    companyField.style.display = isSpecialForm ? "none" : "grid";
+  }
+  
+  // Update labels for special forms
+  if (isPharmacovigil) {
+    if (nameLabel) nameLabel.textContent = t.pharmacovigilanceLabels.fullName;
+    if (emailLabel) emailLabel.textContent = t.pharmacovigilanceLabels.email;
+    if (messageLabel) messageLabel.textContent = t.pharmacovigilanceLabels.message;
+    if (submitButton) submitButton.textContent = t.pharmacovigilanceLabels.submit;
+  } else if (isMedicalInfo) {
+    if (nameLabel) nameLabel.textContent = t.medicalInformationLabels.fullName;
+    if (emailLabel) emailLabel.textContent = t.medicalInformationLabels.email;
+    if (messageLabel) messageLabel.textContent = t.medicalInformationLabels.message;
+    if (submitButton) submitButton.textContent = t.medicalInformationLabels.submit;
+  } else {
+    // Reset to original labels
+    if (nameLabel) nameLabel.textContent = t.form[0];
+    if (emailLabel) emailLabel.textContent = t.form[2];
+    if (messageLabel) messageLabel.textContent = t.form[4];
+    if (submitButton) submitButton.textContent = t.form[5];
+  }
+}
+
+document.querySelector("#interest-options")?.addEventListener("change", updateFormDisplay);
+
 document.querySelector("#contact-form").addEventListener("submit", event => {
   event.preventDefault();
   const t = content[currentLanguage];
@@ -766,15 +860,45 @@ document.querySelector("#contact-form").addEventListener("submit", event => {
   }
 
   const values = new FormData(event.currentTarget);
-  const subject = encodeURIComponent(`${t.inquirySubject} — ${values.get("company") || t.newPartner}`);
-  const body = encodeURIComponent([
-    `${t.form[0]}: ${values.get("name") || ""}`,
-    `${t.form[1]}: ${values.get("company") || ""}`,
-    `${t.form[2]}: ${values.get("email") || ""}`,
-    `${t.form[3]}: ${values.get("interest") || ""}`,
-    "",
-    values.get("message") || ""
-  ].join("\n"));
+  const selectedValue = values.get("interest");
+  const isPharmacovigil = selectedValue === "pharmacovigilance";
+  const isMedicalInfo = selectedValue === "medical-information";
+
+  let recipient = "business@neosyrpharm.com";
+  let subject = "";
+  let body = "";
+
+  if (isPharmacovigil) {
+    recipient = "Pharmacovigilance@neosyrpharm.com";
+    subject = encodeURIComponent(`${t.inquirySubject} — Drug Safety Complaint`);
+    body = encodeURIComponent([
+      `Type: Pharmacovigilance (Drug Safety Complaint)`,
+      `Name: ${values.get("name") || ""}`,
+      `Email: ${values.get("email") || ""}`,
+      "",
+      values.get("message") || ""
+    ].join("\n"));
+  } else if (isMedicalInfo) {
+    recipient = "Medical.Informations@neosyrpharm.com";
+    subject = encodeURIComponent(`${t.inquirySubject} — Medical Information Inquiry`);
+    body = encodeURIComponent([
+      `Type: Medical Information Inquiry`,
+      `Name: ${values.get("name") || ""}`,
+      `Email: ${values.get("email") || ""}`,
+      "",
+      values.get("message") || ""
+    ].join("\n"));
+  } else {
+    subject = encodeURIComponent(`${t.inquirySubject} — ${values.get("company") || t.newPartner}`);
+    body = encodeURIComponent([
+      `${t.form[0]}: ${values.get("name") || ""}`,
+      `${t.form[1]}: ${values.get("company") || ""}`,
+      `${t.form[2]}: ${values.get("email") || ""}`,
+      `${t.form[3]}: ${values.get("interest") || ""}`,
+      "",
+      values.get("message") || ""
+    ].join("\n"));
+  }
 
   const button = form.querySelector(".contactSubmit");
   const buttonLabel = button.querySelector("span:first-child");
@@ -786,15 +910,20 @@ document.querySelector("#contact-form").addEventListener("submit", event => {
   status.textContent = t.formProcessing;
 
   window.setTimeout(() => {
-    window.location.href = `mailto:business@neosyrpharm.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
   }, 180);
 
   window.setTimeout(() => {
     const activeTranslations = content[currentLanguage];
+    const interestValue = form.elements.interest?.value;
+    const isSpecialForm = interestValue === "pharmacovigilance" || interestValue === "medical-information";
+    const submitText = isSpecialForm && isPharmacovigil ? activeTranslations.pharmacovigilanceLabels.submit
+                     : isSpecialForm && isMedicalInfo ? activeTranslations.medicalInformationLabels.submit
+                     : activeTranslations.form[5];
     button.disabled = false;
     button.classList.remove("is-loading");
     button.removeAttribute("aria-busy");
-    buttonLabel.textContent = activeTranslations.form[5];
+    buttonLabel.textContent = submitText;
     status.textContent = "";
   }, 1400);
 });
